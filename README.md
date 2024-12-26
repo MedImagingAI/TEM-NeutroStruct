@@ -30,7 +30,9 @@ Dataset Features
 
 # 4-to-7 Class Conversion Workflow
 
-This repository contains scripts to convert COCO JSON and CVAT XML annotations from 4 classes to 7 classes for the TEM-NeutroStruct dataset. The workflow includes calculating granule statistics, updating annotations, generating segmentation masks, and verifying results.
+The TEM-NeutroStruct dataset includes annotations in both 4-class and 7-class formats, making it ready for use in training and evaluating deep learning models without requiring any additional processing.
+
+For researchers interested in replicating the process of extending 4 classes to 7, this repository includes scripts and instructions for performing the conversion. The workflow involves calculating granule statistics, updating annotations, generating segmentation masks, and verifying the results.
 
 ## Steps in the Workflow
 
