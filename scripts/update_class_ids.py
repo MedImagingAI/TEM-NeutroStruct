@@ -2,7 +2,7 @@ import json
 
 # Paths to the input and output JSON files
 input_json_path = './7classes_version/train/annotations/annotations_7classes.json'  # Update as needed
-output_json_path = './7classes_version/train/annotations/annotations_7classes_updated.json'  # Update as needed
+output_json_path = './7classes_version/train/annotations/annotations_7classes.json'  # Update as needed
 
 # Define the new class IDs and names
 CLASSES = {
