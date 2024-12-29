@@ -52,7 +52,7 @@ Run the script `scripts/update_cvat_xml.py` to update the CVAT XML annotations f
 Run the script `scripts/generate_masks.py` to create color-coded segmentation masks for the 7 classes. Each class is represented by a unique color.
 
 ### 7. Verify Masks
-Run the script `scripts/verify_masks.py` to overlay the masks onto the original images and visually inspect the accuracy of the annotations.
+Run the script `scripts/visualize.py` to overlay the masks onto the original images and visually inspect the accuracy of the annotations.
 
 ## Requirements
 Install the required Python libraries:
