@@ -44,6 +44,7 @@ Run the script `scripts/calculate_statistics.py` to compute the mean and median 
 Run the script `scripts/update_coco_json.py` to:
 - Reclassify primary and secondary granules into 4 sub-classes based on median diameter.
 - Further classify empty structures into `Empty Vesicles` and `Vacuoles`.
+Run the script `scripts/update_class_ids.py` to update class ids. 
 
 ### 5. Update CVAT XML
 Run the script `scripts/update_cvat_xml.py` to update the CVAT XML annotations from 4 to 7 classes. This uses spatial information from the updated COCO JSON.
