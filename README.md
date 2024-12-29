@@ -41,6 +41,11 @@ Once cloned, navigate to the directory:
 ```bash
 cd TEM-NeutroStruct
 ```
+Install the required Python libraries:
+```bash
+pip install -r requirements.txt
+```
+
 ### 1. Download the Dataset
 The dataset must be downloaded separately from the **Zenodo repository**. Place the dataset in the same directory as this repository to ensure proper file linking.
 
@@ -66,8 +71,3 @@ Run the script `scripts/generate_masks.py` to create color-coded segmentation ma
 
 ### 7. Verify Masks
 Run the script `scripts/visualize.py` to overlay the masks onto the original images and visually inspect the accuracy of the annotations.
-
-## Requirements
-Install the required Python libraries:
-```bash
-pip install -r requirements.txt
