@@ -32,10 +32,13 @@ For researchers interested in replicating the process of extending 4 classes to 
 To use the scripts in this repository, clone it to your local machine using the following command:
 
 ```bash
-git clone https://github.com/MedImagingAI/TEM-NeutroStruct.git ```
+git clone https://github.com/MedImagingAI/TEM-NeutroStruct.git
+```
 
 Once cloned, navigate to the directory:
-```bash cd TEM-NeutroStruct```
+```bash
+cd TEM-NeutroStruct
+```
 ### 1. Download the Dataset
 The dataset must be downloaded separately from the **Zenodo repository**. Place the dataset in the same directory as this repository to ensure proper file linking.
 
