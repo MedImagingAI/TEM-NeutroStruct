@@ -29,6 +29,10 @@ The TEM-NeutroStruct dataset includes annotations in both 4-class and 7-class fo
 For researchers interested in replicating the process of extending 4 classes to 7 or generating updated segmentation masks, this repository includes scripts and instructions for performing the conversions. The workflow involves calculating granule statistics, updating annotations, generating segmentation masks, and verifying the results.
 
 ## Steps in the Workflow
+To use the scripts in this repository, clone it to your local machine using the following command:
+
+```bash
+git clone https://github.com/MedImagingAI/TEM-NeutroStruct.git
 ### 1. Download the Dataset
 The dataset must be downloaded separately from the **Zenodo repository**. Place the dataset in the same directory as this repository to ensure proper file linking.
 
