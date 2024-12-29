@@ -3,6 +3,8 @@
 ## Overview
 TEM-NeutroStruct is a rigorously annotated and validated dataset of neutrophil ultrastructures derived from transmission electron microscopy (TEM) images. Developed over 1 year and 9 months, this dataset provides high-resolution TEM images accompanied by high-quality annotations for object detection and segmentation tasks. It is the first publicly available dataset of its kind, designed to support research in automated TEM image analysis, hematological studies, and deep learning.
 
+The dataset is available in two versions: one with four classes and another with seven classes. The four-class version reflects the original annotation structure, while the seven-class version was created to provide a more detailed classification of granule types, enabling more nuanced analysis and experimentation. Both versions are included to ensure transparency and flexibility, allowing researchers to choose the format that best suits their requirements or to develop alternative class division strategies.
+
 The dataset includes:
 - **83 training images** and **10 test images**.
 - **21,143 annotations** in the training set and **3,150 annotations** in the test set.
